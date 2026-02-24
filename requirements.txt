@@ -1,0 +1,38 @@
+# Core RAG Framework
+llama-index==0.10.68
+llama-index-vector-stores-chroma==0.1.10
+llama-index-embeddings-openai==0.1.11
+llama-index-llms-openai==0.1.29
+
+# Vector Database
+chromadb==0.5.3
+
+# LLM Providers
+openai==1.40.0
+
+# Document Parsing
+pypdf==4.3.1
+beautifulsoup4==4.12.3
+requests==2.32.3
+html2text==2024.2.26
+
+# Data Handling
+pandas==2.2.2
+python-dotenv==1.0.1
+
+# Frontend
+streamlit==1.37.0
+
+# Hybrid Retrieval (BM25)
+rank-bm25==0.2.2
+
+# Reranking (v2 feature, install now)
+cohere==5.6.2
+
+# Utilities
+tqdm==4.66.4
+tenacity==8.5.0
+
+# Notebooks
+jupyter==1.0.0
+ipykernel==6.29.5
